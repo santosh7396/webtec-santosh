@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration form</title>
+</head>
+<body style="background-color: ivory;text-align: center;">
+	<h1 style="color: green">Course Registration Form</h1><br>
+	<form action="/action_page.php">
+	<label for="fname" style="color: blue">First Name:</label>
+	<input type="text" id="fname"name="fname"><br><br>
+	<label for="lname" style="color: blue">Last Name:</label>
+	<input type="text" id="lname"name="lname"><br><br>
+	<label for="reg" style="color: blue">Registration No:</label>
+	<input type="number" id="reg"name="reg"><br><br>
+	<label for="roll" style="color: blue">Roll Number:</label>
+	<input type="number" id="roll"name="roll"><br><br>
+	<label for="course" style="color: crimson">Select Course</label>
+	<select id="course" name="course">
+		<option value="btech 1st">BTech I</option>
+		<option value="btech 2nd">BTech II</option>
+		<option value="btech 3rd" selected>BTech III</option>
+		<option value="btech 4th">BTech IV</option>
+	</select>
+	<label for="branch" style="color: crimson">Select Branch</label>
+	<select id="branch" name="branch">
+		<option value="cse">CSE</option>
+		<option value="ece" selected>ECE</option>
+		<option value="eee">EEE</option>
+		<option value="mech">MECH</option>
+		<option value="civil">CHE</option>
+		<option value="mme">BIO</option>
+		<option value="bio">MME</option>
+		<option value="che">CIVIL</option>
+	</select><br><br>
+	<p style="font-size: 130%;color: darkblue">Select Subjects</p>
+	<input type="checkbox" id="sub1" name="sub1">
+	<label for="sub1">Data Networks</label><br>
+	<input type="checkbox" id="sub2" name="sub2">
+	<label for="sub2">Data Networks LAB</label><br>
+	<input type="checkbox" id="sub3" name="sub3">
+	<label for="sub3">communication Lab</label><br>
+	<input type="checkbox" id="sub4" name="sub4">
+	<label for="sub4">Web technologies LAB</label><br>
+	<input type="checkbox" id="sub5" name="sub5">
+	<label for="sub5">OOPS</label><br>
+	<input type="checkbox" id="sub6" name="sub6">
+	<label for="sub6">Embedded Systems</label><br>
+	<input type="checkbox" id="sub7" name="sub7">
+	<label for="sub7">Digital Signal Processing</label><br>
+	<input type="checkbox" id="sub8" name="sub8">
+	<label for="sub8">Information Theory and Coding</label><br><br>
+	<input type="submit" value="submit" style="color: blue"><br><br>
+
+	<button type="button" onclick="alert('You have successfully registered for the course')" style="color: red">CONFIRM</button>
+
+
+</body>
+</html>
